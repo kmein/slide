@@ -17,7 +17,7 @@ fn main() {
     io::stdin().read_to_string(&mut buffer);
 
     for window in buffer
-        .split(char::is_whitespace)
+        .split_whitespace()
         .collect::<Vec<_>>()
         .as_slice()
         .windows(options.size)
