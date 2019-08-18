@@ -1,3 +1,6 @@
+#[macro_use]
+extern crate structopt;
+
 use std::io::{self, Read};
 use structopt::StructOpt;
 
