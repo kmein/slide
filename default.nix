@@ -5,7 +5,7 @@ rustPlatform.buildRustPackage rec {
 
   src = ./.;
 
-  cargoSha256 = "0s0x64d5l58nfhzg7j1zjbrf03l11v9qy5lqyrh0qfab0ba6mngb";
+  cargoSha256 = "0ys6znjfanb25shfqa9v7fj2gmf3ai590pi98d1v4mb06r5dnlz7";
 
   meta = with stdenv.lib; {
     description = "Generate sliding windows of words";
